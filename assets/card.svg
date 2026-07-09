@@ -59,7 +59,7 @@
   <text x="410" y="321" text-anchor="middle" font-size="14.5" fill="#454B53">your phone instead of a server. Currently at Hyve Solutions.</text>
 
   <!-- exposure -->
-  <text x="78" y="374" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">EXPOSURE · SELECTED WORK</text>
+  <text x="78" y="374" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">PROJECTS</text>
   <g>
     <text x="78" y="408" font-size="13" font-weight="700" letter-spacing="1" fill="#14181D">FRESHCHECK</text>
     <text x="214" y="408" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">24K-param CNN · 115 KB · sub-10ms · <tspan fill="#39628A">runs on-device</tspan></text>
@@ -70,7 +70,7 @@
   </g>
 
   <!-- lens kit -->
-  <text x="78" y="518" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">LENS KIT · THE STACK</text>
+  <text x="78" y="518" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">STACK</text>
   <text x="78" y="544" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5" fill="#454B53">PYTHON · PYTORCH · ONNX · HF TRANSFORMERS · FASTAPI · REACT</text>
   <text x="78" y="566" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5" fill="#454B53">AWS · TERRAFORM · DYNAMODB · DOCKER · SQL</text>
 

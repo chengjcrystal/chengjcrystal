@@ -10,12 +10,3 @@
 </p>
 
 </div>
-
-<details>
-<summary>Skills &amp; keywords</summary>
-
-Python, C/C++, JavaScript, SQL, Bash, HTML/CSS. PyTorch, ONNX, Hugging Face Transformers, scikit-learn, NumPy, Pandas, OpenCV, React, Next.js, FastAPI, REST APIs. AWS (Lambda, DynamoDB, CloudFront, S3), Terraform, Docker, Jenkins, Git.
-
-Focus areas: machine learning, on-device and edge inference, applied AI, backend engineering, cloud infrastructure.
-
-</details>
