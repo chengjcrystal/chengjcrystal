@@ -55,16 +55,16 @@
   <text x="410" y="182" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">UC BERKELEY · CS + APPLIED MATH</text>
   <text x="410" y="234" text-anchor="middle" font-size="45" font-weight="700" letter-spacing="6" fill="#14181D">CRYSTAL CHENG</text>
   <text x="410" y="264" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2" fill="#454B53">SOFTWARE ENGINEER · ML / AI</text>
-  <text x="410" y="300" text-anchor="middle" font-size="14.5" fill="#454B53">I build AI thoughtfully: <tspan fill="#39628A" font-weight="600">privacy-first, on-device,</tspan></text>
-  <text x="410" y="321" text-anchor="middle" font-size="14.5" fill="#454B53"><tspan fill="#39628A" font-weight="600">and actually shipped.</tspan> Currently at Hyve Solutions.</text>
+  <text x="410" y="300" text-anchor="middle" font-size="14.5" fill="#454B53">I build <tspan fill="#39628A" font-weight="600">privacy-first AI</tspan>, small enough to run on</text>
+  <text x="410" y="321" text-anchor="middle" font-size="14.5" fill="#454B53">your phone instead of a server. Currently at Hyve Solutions.</text>
 
   <!-- exposure -->
-  <text x="78" y="374" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">EXPOSURE · SHIPPED AND MEASURED</text>
+  <text x="78" y="374" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">EXPOSURE · SELECTED WORK</text>
   <g>
     <text x="78" y="408" font-size="13" font-weight="700" letter-spacing="1" fill="#14181D">FRESHCHECK</text>
-    <text x="214" y="408" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">100% val accuracy · 115 KB · sub-10ms · <tspan fill="#39628A">runs on-device</tspan></text>
-    <text x="78" y="440" font-size="13" font-weight="700" letter-spacing="1" fill="#14181D">BAROBO</text>
-    <text x="214" y="440" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">10K+ requests/mo secured · 2h to 15m provisioning</text>
+    <text x="214" y="408" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">24K-param CNN · 115 KB · sub-10ms · <tspan fill="#39628A">runs on-device</tspan></text>
+    <text x="78" y="440" font-size="13" font-weight="700" letter-spacing="1" fill="#14181D">MBTI GUESSER</text>
+    <text x="214" y="440" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">zero-shot BART-MNLI over text, image + numeric signals</text>
     <text x="78" y="472" font-size="13" font-weight="700" letter-spacing="1" fill="#14181D">REPORANK</text>
     <text x="214" y="472" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" fill="#454B53">BM25 ranking written from scratch · FastAPI · inverted index</text>
   </g>
