@@ -45,7 +45,6 @@
   <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="11">
     <circle cx="86" cy="106" r="4" fill="#C4564C"/>
     <text x="96" y="110" font-weight="700" letter-spacing="1" fill="#C4564C">REC</text>
-    <text x="146" y="110" letter-spacing="1" fill="#39628A">2026·07·13</text>
     <rect x="886" y="102" width="19" height="10" rx="2" fill="none" stroke="#7A879D" stroke-width="1"/>
     <rect x="888.5" y="104.5" width="11" height="5" fill="#7A879D"/>
     <rect x="905" y="105" width="2.4" height="4" fill="#7A879D"/>
