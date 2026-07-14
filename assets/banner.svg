@@ -1,77 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
   <defs>
     <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ECE6F9"/>
-      <stop offset="0.55" stop-color="#D8CDF2"/>
-      <stop offset="1" stop-color="#C4B5EA"/>
+      <stop offset="0" stop-color="#EFF1F3"/>
+      <stop offset="0.46" stop-color="#CDD1D6"/>
+      <stop offset="1" stop-color="#A6ABB2"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A6ABB2"/>
+      <stop offset="1" stop-color="#CDD1D6"/>
     </linearGradient>
     <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FCFBFF"/>
-      <stop offset="1" stop-color="#F4F1FC"/>
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2F6"/>
     </linearGradient>
-    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F3EEFD"/>
-      <stop offset="0.5" stop-color="#C9BAF0"/>
-      <stop offset="1" stop-color="#9E85D8"/>
-    </linearGradient>
-    <radialGradient id="lens" cx="0.4" cy="0.34" r="0.8">
-      <stop offset="0" stop-color="#F3EEFD"/>
-      <stop offset="1" stop-color="#B6A2E6"/>
+    <radialGradient id="knob" cx="0.38" cy="0.32" r="0.8">
+      <stop offset="0" stop-color="#EFF1F3"/>
+      <stop offset="1" stop-color="#A6ABB2"/>
     </radialGradient>
   </defs>
 
-  <!-- panel -->
-  <rect x="4" y="4" width="992" height="292" rx="30" fill="#F3EFFB" stroke="#E1D7F5" stroke-width="1.5"/>
+  <!-- body -->
+  <rect x="8" y="8" width="984" height="254" rx="26" fill="url(#body)" stroke="#868C93" stroke-width="1"/>
 
-  <!-- deco: one chrome heart + two sparkles, all one palette -->
-  <g transform="translate(963,150) scale(1.9)">
-    <path d="M0,3 C0,3 -7,-2 -7,-7 C-7,-10 -4,-11 -2,-9.5 C-1,-8.5 0,-7 0,-6 C0,-7 1,-8.5 2,-9.5 C4,-11 7,-10 7,-7 C7,-2 0,3 0,3 Z" fill="url(#chrome)" stroke="#9E85D8" stroke-width="0.5"/>
-    <ellipse cx="-2.4" cy="-6.2" rx="2.2" ry="1.4" fill="#FFFFFF" opacity="0.75"/>
-  </g>
-  <path d="M0,-11 C1.5,-4 4,-1.5 11,0 C4,1.5 1.5,4 0,11 C-1.5,4 -4,1.5 -11,0 C-4,-1.5 -1.5,-4 0,-11 Z" transform="translate(38,66) scale(1.15)" fill="#BEACE8"/>
-  <path d="M0,-11 C1.5,-4 4,-1.5 11,0 C4,1.5 1.5,4 0,11 C-1.5,4 -4,1.5 -11,0 C-4,-1.5 -1.5,-4 0,-11 Z" transform="translate(40,236) scale(0.95)" fill="#CFC1F0"/>
+  <!-- top deck -->
+  <text x="40" y="46" font-size="12" font-weight="700" letter-spacing="3.4" fill="#454B53">CRYSTAL·<tspan fill="#39628A">SHOT</tspan></text>
+  <circle cx="892" cy="42" r="2" fill="#868C93"/>
+  <circle cx="902" cy="42" r="2" fill="#868C93"/>
+  <circle cx="912" cy="42" r="2" fill="#868C93"/>
+  <circle cx="956" cy="42" r="14" fill="url(#knob)" stroke="#868C93" stroke-width="1"/>
 
-  <!-- camera body -->
-  <rect x="70" y="54" width="860" height="204" rx="46" fill="#CFC2EF" opacity="0.55"/>
-  <rect x="70" y="48" width="860" height="204" rx="46" fill="url(#body)" stroke="#B4A0E0" stroke-width="2.5"/>
-  <ellipse cx="500" cy="92" rx="400" ry="40" fill="#FFFFFF" opacity="0.24"/>
+  <!-- LCD frame + screen -->
+  <rect x="36" y="64" width="928" height="182" rx="16" fill="url(#frame)"/>
+  <rect x="48" y="76" width="904" height="158" rx="10" fill="url(#screen)" stroke="#22272C" stroke-width="2"/>
 
-  <!-- top band: brand + control buttons + shutter -->
-  <text x="120" y="76" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="2.6" fill="#8B7BB8">CRYSTAL·<tspan fill="#6E58A8">SHOT</tspan></text>
-  <circle cx="758" cy="66" r="9" fill="#CDBFF0" stroke="#A78FD6" stroke-width="1.5"/>
-  <circle cx="792" cy="66" r="9" fill="#BBA9E6" stroke="#A78FD6" stroke-width="1.5"/>
-  <circle cx="882" cy="64" r="18" fill="url(#chrome)" stroke="#A78FD6" stroke-width="1.5"/>
-  <circle cx="876" cy="58" r="5" fill="#FFFFFF" opacity="0.7"/>
-
-  <!-- LCD screen -->
-  <rect x="104" y="84" width="560" height="136" rx="16" fill="url(#screen)" stroke="#4A3E6B" stroke-width="2.5"/>
-  <g stroke="#C3B4EC" stroke-width="1.6" fill="none">
-    <path d="M120,100 h15 M120,100 v15"/>
-    <path d="M648,100 h-15 M648,100 v15"/>
-    <path d="M120,204 h15 M120,204 v-15"/>
-    <path d="M648,204 h-15 M648,204 v-15"/>
+  <!-- focus brackets -->
+  <g stroke="#A6ADB5" stroke-width="1.5" fill="none">
+    <path d="M64,90 h16 M64,90 v16"/>
+    <path d="M936,90 h-16 M936,90 v16"/>
+    <path d="M64,220 h16 M64,220 v-16"/>
+    <path d="M936,220 h-16 M936,220 v-16"/>
   </g>
 
   <!-- HUD -->
-  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10.5">
-    <circle cx="150" cy="112" r="4" fill="#7E63B4"/>
-    <text x="160" y="116" font-weight="700" letter-spacing="1" fill="#7E63B4">REC</text>
-    <text x="206" y="116" letter-spacing="1" fill="#9086B5">2026·07·13</text>
-    <rect x="602" y="107" width="20" height="10" rx="2" fill="none" stroke="#9086B5" stroke-width="1"/>
-    <rect x="604.5" y="109.5" width="12" height="5" fill="#9086B5"/>
-    <rect x="622" y="110" width="2.4" height="4" fill="#9086B5"/>
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="11">
+    <circle cx="86" cy="106" r="4" fill="#C4564C"/>
+    <text x="96" y="110" font-weight="700" letter-spacing="1" fill="#C4564C">REC</text>
+    <text x="146" y="110" letter-spacing="1" fill="#39628A">2026·07·13</text>
+    <rect x="886" y="102" width="19" height="10" rx="2" fill="none" stroke="#7C848D" stroke-width="1"/>
+    <rect x="888.5" y="104.5" width="11" height="5" fill="#7C848D"/>
+    <rect x="905" y="105" width="2.4" height="4" fill="#7C848D"/>
   </g>
 
   <!-- identity -->
-  <text x="384" y="140" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="9.5" letter-spacing="2.4" fill="#9086B5">UC BERKELEY · CS + APPLIED MATH</text>
-  <text x="384" y="180" text-anchor="middle" font-size="36" font-weight="700" letter-spacing="4" fill="#453A63">CRYSTAL CHENG</text>
-  <text x="384" y="206" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#6E6199">SOFTWARE ENGINEER · ML / AI</text>
-
-  <!-- lens -->
-  <circle cx="802" cy="156" r="58" fill="#D9CDF4" stroke="#B7A4E4" stroke-width="2"/>
-  <circle cx="802" cy="156" r="44" fill="url(#chrome)" stroke="#A78FD6" stroke-width="1.5"/>
-  <circle cx="802" cy="156" r="30" fill="url(#lens)"/>
-  <circle cx="802" cy="156" r="15" fill="#6E58A8"/>
-  <circle cx="793" cy="147" r="5" fill="#FFFFFF" opacity="0.85"/>
-  <text x="802" y="232" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="9" letter-spacing="1.5" fill="#9086B5">AUTO · f2.8</text>
+  <text x="500" y="150" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">UC BERKELEY · CS + APPLIED MATH</text>
+  <text x="500" y="196" text-anchor="middle" font-size="44" font-weight="700" letter-spacing="6" fill="#14181D">CRYSTAL CHENG</text>
+  <text x="500" y="224" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2" fill="#454B53">SOFTWARE ENGINEER · ML / AI</text>
 </svg>
