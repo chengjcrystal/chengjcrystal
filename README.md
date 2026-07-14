@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Crystal Cheng. Software Engineer, ML / AI. UC Berkeley, CS and Applied Math." width="920">
+  <img src="./assets/banner-blue.svg" alt="Crystal Cheng. Software Engineer, ML / AI. UC Berkeley, CS and Applied Math." width="920">
 </p>
 
 `● REC   2026·07·13   ▮▮▮▮ on-device`
