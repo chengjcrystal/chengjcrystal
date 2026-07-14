@@ -52,7 +52,7 @@
   </g>
 
   <!-- identity -->
-  <text x="500" y="150" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">UC BERKELEY · CS + APPLIED MATH</text>
-  <text x="500" y="196" text-anchor="middle" font-size="44" font-weight="700" letter-spacing="6" fill="#14181D">CRYSTAL CHENG</text>
-  <text x="500" y="224" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2" fill="#454B53">SOFTWARE ENGINEER · ML / AI</text>
+  <text x="500" y="120" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#7C848D">UC BERKELEY · CS + APPLIED MATH</text>
+  <text x="500" y="166" text-anchor="middle" font-size="44" font-weight="700" letter-spacing="6" fill="#14181D">CRYSTAL CHENG</text>
+  <text x="500" y="194" text-anchor="middle" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2" fill="#454B53">SOFTWARE ENGINEER · ML / AI</text>
 </svg>
