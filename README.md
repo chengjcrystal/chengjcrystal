@@ -12,7 +12,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 | --- | --- |
 | **freshcheck** | ~24k-param CNN, 97.7% held-out accuracy, runs fully in-browser (ONNX / WASM) |
 | **mbti guesser** | zero-shot BART-MNLI over text, image + numeric signals |
-| **reporank** | hand-built inverted index + BM25, blended re-ranker, nDCG@10 0.98 |
+| **reporank** | 157k-repo search engine: from-scratch inverted index + BM25/BM25F, blended re-ranker, nDCG eval gate wired into CI |
 
 ## ⌜ stack ⌟
 
