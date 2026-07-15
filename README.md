@@ -10,9 +10,9 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 
 | shot | what it is |
 | --- | --- |
+| **reporank** | 157k-repo search engine: from-scratch inverted index + BM25/BM25F, blended re-ranker, nDCG eval gate wired into CI |
 | **freshcheck** | ~24k-param CNN, 97.7% held-out accuracy, runs fully in-browser (ONNX / WASM) |
 | **mbti guesser** | zero-shot BART-MNLI over text, image + numeric signals |
-| **reporank** | 157k-repo search engine: from-scratch inverted index + BM25/BM25F, blended re-ranker, nDCG eval gate wired into CI |
 
 ## ⌜ stack ⌟
 
@@ -21,7 +21,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 
 ## ⌜ live ⌟
 
+- ▸ reporank: [github.com/chengjcrystal/reporank](https://github.com/chengjcrystal/reporank)
 - ◉ freshcheck: [freshcheckfruit.vercel.app](https://freshcheckfruit.vercel.app/)
 - ◉ mbti guesser: [huggingface.co/spaces/chengjcrystal/mbti-guesser](https://huggingface.co/spaces/chengjcrystal/mbti-guesser)
-- ▸ reporank: [github.com/chengjcrystal/reporank](https://github.com/chengjcrystal/reporank)
 - @ email: [chengjcrystal@gmail.com](mailto:chengjcrystal@gmail.com)
