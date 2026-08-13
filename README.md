@@ -10,9 +10,9 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 
 | shot | what it is |
 | --- | --- |
-| **reporank** | 157k-repo search engine: from-scratch inverted index + BM25/BM25F, blended re-ranker, nDCG eval gate wired into CI |
-| **freshcheck** | ~24k-param CNN, 97.7% held-out accuracy, runs fully in-browser (ONNX / WASM) |
-| **mbti guesser** | zero-shot BART-MNLI over text, image + numeric signals |
+| **reporank** | search engine over 157k real github repos, ranking built from scratch instead of elasticsearch |
+| **freshcheck** | tells you if a fruit is fresh from a photo, runs fully in your browser, no server |
+| **mbti guesser** | guesses mbti type from text, photo, and social stats, no training data needed |
 
 ## ⌜ stack ⌟
 
