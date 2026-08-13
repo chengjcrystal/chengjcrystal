@@ -4,7 +4,7 @@
 
 `● REC   ▮▮▮▮ on-device`
 
-i build privacy-first AI, small enough to run on your phone instead of a server. cs and applied math at uc berkeley, currently at hyve solutions. this is the technical cut of my [portfolio](https://chengjcrystal.vercel.app).
+i build privacy-first AI, small enough to run on your phone instead of a server. cs and applied math at uc berkeley, most recently at hyve solutions. this is the technical cut of my [portfolio](https://chengjcrystal.vercel.app).
 
 ## ⌜ projects ⌟
 
