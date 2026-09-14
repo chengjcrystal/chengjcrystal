@@ -21,7 +21,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 
 ## ⌜ live ⌟
 
-- ▸ reporank: [github.com/chengjcrystal/reporank](https://github.com/chengjcrystal/reporank)
+- ◉ reporank: [reporank-jgoo.onrender.com](https://reporank-jgoo.onrender.com)
 - ◉ freshcheck: [freshcheckfruit.vercel.app](https://freshcheckfruit.vercel.app/)
 - ◉ mbti guesser: [huggingface.co/spaces/chengjcrystal/mbti-guesser](https://huggingface.co/spaces/chengjcrystal/mbti-guesser)
 - @ email: [chengjcrystal@gmail.com](mailto:chengjcrystal@gmail.com)
