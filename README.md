@@ -12,7 +12,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 | --- | --- |
 | **reporank** | search engine over 157k real github repos, ranking built from scratch instead of elasticsearch |
 | **freshcheck** | tells you if a fruit is fresh from a photo, runs fully in your browser, no server |
-| **mbti guesser** | guesses mbti type from text, photo, and social stats, no training data needed |
+| **mbti radar** | reads your mbti type from scenarios you write, a photo, and social stats, no training data needed |
 
 ## ⌜ stack ⌟
 
@@ -23,5 +23,5 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 
 - ◉ reporank: [reporank-jgoo.onrender.com](https://reporank-jgoo.onrender.com)
 - ◉ freshcheck: [freshcheckfruit.vercel.app](https://freshcheckfruit.vercel.app/)
-- ◉ mbti guesser: [huggingface.co/spaces/chengjcrystal/mbti-guesser](https://huggingface.co/spaces/chengjcrystal/mbti-guesser)
+- ◉ mbti radar: [huggingface.co/spaces/chengjcrystal/mbti-radar](https://huggingface.co/spaces/chengjcrystal/mbti-radar)
 - @ email: [chengjcrystal@gmail.com](mailto:chengjcrystal@gmail.com)
