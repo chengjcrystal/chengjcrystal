@@ -12,7 +12,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 | --- | --- |
 | **reporank** | search engine over 157k real github repos, ranking built from scratch instead of elasticsearch |
 | **freshcheck** | tells you if a fruit is fresh from a photo, runs fully in your browser, no server |
-| **mbti radar** | reads your mbti type from scenarios you write, a photo, and social stats, no training data needed |
+| **mbti radar** | reads your mbti type from scenarios you write, a photo, and social stats with no training data, then deals it back as a card pack to open |
 
 ## ⌜ stack ⌟
 
