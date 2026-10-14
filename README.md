@@ -17,7 +17,7 @@ i build privacy-first AI, small enough to run on your phone instead of a server.
 ## ⌜ stack ⌟
 
 `python` `pytorch` `onnx` `hf transformers` `fastapi` `react`
-`aws` `terraform` `dynamodb` `docker` `sql`
+`aws` `terraform` `dynamodb` `docker` `kubernetes` `sql`
 
 ## ⌜ live ⌟
 
